@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { SaveToStorage } from './save-to-storage';
 
-function App() {
+function App({ onClick }) {
+  const getValue = () => {
+    return SaveToStorage().getValue();
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +22,8 @@ function App() {
         >
           Learn React
         </a>
+        <button id="my-button-one" onClick={onClick}></button>
+        <button id="my-button-two" onClick={getValue}></button>
       </header>
     </div>
   );
