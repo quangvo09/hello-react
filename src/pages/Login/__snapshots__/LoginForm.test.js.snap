@@ -1,0 +1,614 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm should render correctly 1`] = `
+<Formik
+  autoComplete="off"
+  component={[Function]}
+  enableReinitialize={false}
+  initialValues={
+    Object {
+      "password": "",
+      "username": "",
+    }
+  }
+  isInitialValid={false}
+  isSubmitting={false}
+  onSubmit={[Function]}
+  validateOnBlur={true}
+  validateOnChange={true}
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": undefined,
+      "_nodes": Array [
+        "password",
+        "username",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {
+        "password": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "required": true,
+          },
+          "_mutate": undefined,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "username": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "required": true,
+            "undefined": false,
+          },
+          "_mutate": undefined,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+    }
+  }
+/>
+`;
+
+exports[`LoginForm should render form correctly 1`] = `
+<LoginFormContainer
+  isSubmitting={false}
+>
+  <Formik
+    autoComplete="off"
+    component={[Function]}
+    enableReinitialize={false}
+    initialValues={
+      Object {
+        "password": "",
+        "username": "",
+      }
+    }
+    isInitialValid={false}
+    isSubmitting={false}
+    onSubmit={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [],
+        "_exclusive": Object {},
+        "_mutate": undefined,
+        "_nodes": Array [
+          "password",
+          "username",
+        ],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "fields": Object {
+          "password": StringSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "max": true,
+              "required": true,
+            },
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+          "username": StringSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_deps": Array [],
+            "_exclusive": Object {
+              "required": true,
+              "undefined": false,
+            },
+            "_mutate": undefined,
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "string",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+          },
+        },
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+      }
+    }
+  >
+    <LoginForm
+      dirty={false}
+      errors={Object {}}
+      handleBlur={[Function]}
+      handleChange={[Function]}
+      handleReset={[Function]}
+      handleSubmit={[Function]}
+      initialValues={
+        Object {
+          "password": "",
+          "username": "",
+        }
+      }
+      isSubmitting={false}
+      isValid={false}
+      isValidating={false}
+      registerField={[Function]}
+      resetForm={[Function]}
+      setError={[Function]}
+      setErrors={[Function]}
+      setFieldError={[Function]}
+      setFieldTouched={[Function]}
+      setFieldValue={[Function]}
+      setFormikState={[Function]}
+      setStatus={[Function]}
+      setSubmitting={[Function]}
+      setTouched={[Function]}
+      setValues={[Function]}
+      submitCount={0}
+      submitForm={[Function]}
+      touched={Object {}}
+      unregisterField={[Function]}
+      validateField={[Function]}
+      validateForm={[Function]}
+      validateOnBlur={true}
+      validateOnChange={true}
+      values={
+        Object {
+          "password": "",
+          "username": "",
+        }
+      }
+    >
+      <form
+        autoComplete="false"
+        onSubmit={[Function]}
+      >
+        <div>
+          <label>
+            Username
+          </label>
+          <FormikConnect(FieldInner)
+            id="username"
+            name="username"
+            type="text"
+          >
+            <FieldInner
+              formik={
+                Object {
+                  "dirty": false,
+                  "errors": Object {},
+                  "handleBlur": [Function],
+                  "handleChange": [Function],
+                  "handleReset": [Function],
+                  "handleSubmit": [Function],
+                  "initialValues": Object {
+                    "password": "",
+                    "username": "",
+                  },
+                  "isSubmitting": false,
+                  "isValid": false,
+                  "isValidating": false,
+                  "registerField": [Function],
+                  "resetForm": [Function],
+                  "setError": [Function],
+                  "setErrors": [Function],
+                  "setFieldError": [Function],
+                  "setFieldTouched": [Function],
+                  "setFieldValue": [Function],
+                  "setFormikState": [Function],
+                  "setStatus": [Function],
+                  "setSubmitting": [Function],
+                  "setTouched": [Function],
+                  "setValues": [Function],
+                  "status": undefined,
+                  "submitCount": 0,
+                  "submitForm": [Function],
+                  "touched": Object {},
+                  "unregisterField": [Function],
+                  "validate": undefined,
+                  "validateField": [Function],
+                  "validateForm": [Function],
+                  "validateOnBlur": true,
+                  "validateOnChange": true,
+                  "validationSchema": ObjectSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_defaultDefault": [Function],
+                    "_deps": Array [],
+                    "_excludedEdges": Array [],
+                    "_exclusive": Object {},
+                    "_mutate": undefined,
+                    "_nodes": Array [
+                      "password",
+                      "username",
+                    ],
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "object",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "fields": Object {
+                      "password": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "max": true,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                      },
+                      "username": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "required": true,
+                          "undefined": false,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                      },
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                  },
+                  "values": Object {
+                    "password": "",
+                    "username": "",
+                  },
+                }
+              }
+              id="username"
+              name="username"
+              type="text"
+            >
+              <input
+                id="username"
+                name="username"
+                onBlur={[Function]}
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </FieldInner>
+          </FormikConnect(FieldInner)>
+          <div />
+        </div>
+        <div>
+          <label>
+            Password
+          </label>
+          <FormikConnect(FieldInner)
+            id="password"
+            name="password"
+            type="password"
+          >
+            <FieldInner
+              formik={
+                Object {
+                  "dirty": false,
+                  "errors": Object {},
+                  "handleBlur": [Function],
+                  "handleChange": [Function],
+                  "handleReset": [Function],
+                  "handleSubmit": [Function],
+                  "initialValues": Object {
+                    "password": "",
+                    "username": "",
+                  },
+                  "isSubmitting": false,
+                  "isValid": false,
+                  "isValidating": false,
+                  "registerField": [Function],
+                  "resetForm": [Function],
+                  "setError": [Function],
+                  "setErrors": [Function],
+                  "setFieldError": [Function],
+                  "setFieldTouched": [Function],
+                  "setFieldValue": [Function],
+                  "setFormikState": [Function],
+                  "setStatus": [Function],
+                  "setSubmitting": [Function],
+                  "setTouched": [Function],
+                  "setValues": [Function],
+                  "status": undefined,
+                  "submitCount": 0,
+                  "submitForm": [Function],
+                  "touched": Object {},
+                  "unregisterField": [Function],
+                  "validate": undefined,
+                  "validateField": [Function],
+                  "validateForm": [Function],
+                  "validateOnBlur": true,
+                  "validateOnChange": true,
+                  "validationSchema": ObjectSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_defaultDefault": [Function],
+                    "_deps": Array [],
+                    "_excludedEdges": Array [],
+                    "_exclusive": Object {},
+                    "_mutate": undefined,
+                    "_nodes": Array [
+                      "password",
+                      "username",
+                    ],
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "object",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "fields": Object {
+                      "password": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "max": true,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                      },
+                      "username": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "required": true,
+                          "undefined": false,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                      },
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                  },
+                  "values": Object {
+                    "password": "",
+                    "username": "",
+                  },
+                }
+              }
+              id="password"
+              name="password"
+              type="password"
+            >
+              <input
+                id="password"
+                name="password"
+                onBlur={[Function]}
+                onChange={[Function]}
+                type="password"
+                value=""
+              />
+            </FieldInner>
+          </FormikConnect(FieldInner)>
+          <div />
+        </div>
+        <div
+          data-testid="login-form-action"
+        >
+          <button
+            data-testid="login-button"
+            onClick={[Function]}
+            type="submit"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+    </LoginForm>
+  </Formik>
+</LoginFormContainer>
+`;

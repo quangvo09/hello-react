@@ -7,26 +7,6 @@ exports[`App save to storage should set storage on save button click 1`] = `
   <header
     className="App-header"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
-    </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      Learn React
-    </a>
     <button
       id="my-button-one"
       onClick={
@@ -42,11 +22,15 @@ exports[`App save to storage should set storage on save button click 1`] = `
           ],
         }
       }
-    />
+    >
+      Button1
+    </button>
     <button
       id="my-button-two"
       onClick={[Function]}
-    />
+    >
+      Button2
+    </button>
   </header>
 </div>
 `;
@@ -59,33 +43,17 @@ exports[`App should be possible to activate button with Spacebar 1`] = `
     <header
       className="App-header"
     >
-      <img
-        alt="logo"
-        className="App-logo"
-        src="logo.svg"
-      />
-      <p>
-        Edit 
-        <code>
-          src/App.js
-        </code>
-         and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Learn React
-      </a>
       <button
         id="my-button-one"
-      />
+      >
+        Button1
+      </button>
       <button
         id="my-button-two"
         onClick={[Function]}
-      />
+      >
+        Button2
+      </button>
     </header>
   </div>
 </App>
@@ -98,33 +66,17 @@ exports[`App should render banner text correctly with given strings 1`] = `
   <header
     className="App-header"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
-    </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      Learn React
-    </a>
     <button
       id="my-button-one"
-    />
+    >
+      Button1
+    </button>
     <button
       id="my-button-two"
       onClick={[Function]}
-    />
+    >
+      Button2
+    </button>
   </header>
 </div>
 `;
@@ -136,33 +88,17 @@ exports[`App should render correctly in "debug" mode 1`] = `
   <header
     className="App-header"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
-    </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      Learn React
-    </a>
     <button
       id="my-button-one"
-    />
+    >
+      Button1
+    </button>
     <button
       id="my-button-two"
       onClick={[Function]}
-    />
+    >
+      Button2
+    </button>
   </header>
 </div>
 `;
@@ -174,33 +110,17 @@ exports[`App should render correctly with no props 1`] = `
   <header
     className="App-header"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
-    </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      Learn React
-    </a>
     <button
       id="my-button-one"
-    />
+    >
+      Button1
+    </button>
     <button
       id="my-button-two"
       onClick={[Function]}
-    />
+    >
+      Button2
+    </button>
   </header>
 </div>
 `;
